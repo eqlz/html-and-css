@@ -40,5 +40,5 @@ fixed
 ## box-sizing
 |  | Explanation | Dimension of the element | Example |
 | --- | --- | --- | --- |
-| content-box | Width, height properties include content, not including padding, border, margin | Width = width of the content Height = height of the content | .box {width: 350px; border: 10px solid black;} renders a box that is 370px wide.|
-| border-box | Width, height properties include content, padding, border, not including margin|width = width of the content + padding + border Height = height of the content + padding + border| .box {width: 350px; border: 10px solid black;} Render box 350px wide, the width of content is 330px = 350 - (2 * 10px) |
+| content-box | Width, height properties include content, not including padding, border, margin | Width = width of the content Height = height of the content | .box {width: 350px; border: 10px solid black;} -> renders a box that is 370px wide.|
+| border-box | Width, height properties include content, padding, border, not including margin|width = width of the content + padding + border; Height = height of the content + padding + border| .box {width: 350px; border: 10px solid black;} -> render box 350px wide, the width of content is 330px = 350 - (2 * 10px) |
